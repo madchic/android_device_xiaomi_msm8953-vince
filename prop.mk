@@ -85,7 +85,7 @@ persist.hwc.enable_vds=1 \
 persist.hwc.mdpcomp.enable=true \
 ro.opengles.version=196610 \
 ro.qualcomm.cabl=0 \
-ro.sf.lcd_density=480
+ro.sf.lcd_density=440
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -127,7 +127,7 @@ vendor.vidc.enc.disable_bframes=1
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.sys.fw.dex2oat_thread_count=4 \
+ro.sys.fw.dex2oat_thread_count=8 \
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # Netmgrd
